@@ -1,9 +1,9 @@
 import java.util.Scanner;
-public class Main
-{
-	public static void main(String[] args) {
-	    Scanner sc=new Scanner(System.in);
-	    char ch = sc.next().charAt(0);
-		System.out.println((int)ch);
-	}
+class formulabase11 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double r = sc.nextDouble();
+        double c = 2 * 3.14159 * r;
+        System.out.println(c);
+    }
 }
