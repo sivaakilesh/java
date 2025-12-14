@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+       int battery = sc.nextInt();
+        if (battery >= 80){
+            System.out.println("Full");
+        }
+        else if (battery >= 30){
+            System.out.println("Moderate");
+        }
+        else{
+            System.out.println("Low");
+        }
+    }
+}
